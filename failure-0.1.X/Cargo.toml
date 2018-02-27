@@ -17,6 +17,7 @@ default-features = false
 optional = true
 version = "0.1.2"
 path = "./failure_derive"
+default-features = false
 
 [features]
 default = ["std", "derive"]
