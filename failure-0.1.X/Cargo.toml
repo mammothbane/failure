@@ -8,11 +8,6 @@ name = "failure"
 repository = "https://github.com/withoutboats/failure"
 version = "0.1.2"
 
-[dependencies.failure_compat_shim]
-version = "1.0.0"
-path = "../failure_compat_shim"
-default-features = false
-
 [dependencies.failure_derive]
 optional = true
 version = "0.1.2"
